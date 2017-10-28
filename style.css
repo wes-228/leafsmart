@@ -50,7 +50,7 @@ body {
 .jumbotron {
     width: 100%;
     height: 100%;
-    background-image: url(jumbo-bg.gif);
+    background-image: url(https://cdn.jsdelivr.net/gh/wes-228/leafsmart@0.0.0.1/jumbo-bg.gif);
     background-position: center;
     background-size: cover;
 }
@@ -63,7 +63,7 @@ body {
     font-size: 45px;
     color: #FFF;
     text-align: center;
-    padding: 125px 10px 0px 10px;
+    padding: 150px 55px 150px 55px;
     font-weight: bolder;
 }
 
@@ -92,7 +92,26 @@ span {
 .sect-line {
     padding: 25px;
 }
+.sect-line-2 {
+    padding: 25px 150px 25px 150px;
+}
+.sect-content p {
+    padding: 45px;
+    text-indent: 30px;
+}
+.sect-content p a {
+    color: #000;
+}
 
+
+.btt {
+    text-align: center;
+    padding: 12px;
+}
+.btt a {
+    color: #FFF;
+    text-align: center;
+}
 
 /*-*/
 
@@ -107,11 +126,15 @@ span {
 .main-footer p {
     color: #FFF;
     font-size: 20px;
-    padding: 25px 0px 25px 0px;
 }
 .main-footer p a {
     color: #FFF;
+    padding: 25px;
 }
-/* FIX FOOTER TEXT PADDING!! */
+.footer-text {
+    padding: 22px;
+}
 
 /*-*/
+
+
